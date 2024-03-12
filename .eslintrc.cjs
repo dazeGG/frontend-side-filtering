@@ -11,7 +11,7 @@ module.exports = {
     extends: ["@nuxtjs/eslint-config-typescript"],
     plugins: [],
     rules: {
-        'comma-dangle': ["error", "always"],
+        'comma-dangle': ["error", "always-multiline"],
         // "vue/multi-word-component-names": ["error", {}],
     },
 };
