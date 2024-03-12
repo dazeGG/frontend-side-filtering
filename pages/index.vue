@@ -3,6 +3,7 @@ import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
 
 import ColorView from '~/components/ColorView';
+import BlockedView from '~/components/BlockedView';
 
 import users from '~/data/users.json';
 </script>
@@ -15,11 +16,15 @@ import users from '~/data/users.json';
       <Column field="role" header="Role" />
       <Column field="balance" header="Balance" />
       <Column field="color" header="Color">
-        <template #body="slotProps">
-          <ColorView :color="slotProps.data.color" />
+        <template #body="{ data: { color } }">
+          <ColorView :color="color" />
         </template>
       </Column>
-      <Column field="blocked" header="Blocked" />
+      <Column field="blocked" header="Blocked" data-type="boolean" style="min-width: 6rem">
+        <template #body="{ data: { blocked } }">
+          <BlockedView :blocked="blocked" />
+        </template>
+      </Column>
     </DataTable>
   </div>
 </template>
