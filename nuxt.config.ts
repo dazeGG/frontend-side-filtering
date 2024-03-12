@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     autoImport: false,
   },
 
-  css: ['~/assets/styles/main.css', 'primevue/resources/themes/lara-dark-green/theme.css'],
+  css: ['~/assets/styles/main.css', 'primevue/resources/themes/mdc-dark-indigo/theme.css'],
 
   modules: [
     '@nuxtjs/eslint-module',
