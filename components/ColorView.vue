@@ -7,51 +7,59 @@ const props = defineProps<{
 </script>
 
 <template>
-  <Tag class="color-view" :class="props.color">
+  <Tag class="color-view" :class="props.color" rounded>
+    <span class="color-view__color-dot" />
     <span class="color-view__text" v-text="props.color" />
   </Tag>
 </template>
 
 <style lang="scss">
 .color-view {
+  background: unset;
+  color: rgba(255, 255, 255, 0.87);
+  border: 1px solid var(--color);
+  padding-left: 1rem;
+  position: relative;
+
   &.yellow {
-    background: rgba(134, 110, 0, 0.5);
-    color: #ffc800;
+    --color: #ffc800;
   }
 
   &.green {
-    background: rgba(0, 134, 4, 0.5);
-    color: #36d000;
+    --color: #36d000;
   }
 
   &.red {
-    background: rgba(199, 20, 0, 0.5);
-    color: #ff4624;
+    --color: #ff4624;
   }
 
   &.blue {
-    background: rgba(0, 45, 180, 0.5);
-    color: #0077ff;
+    --color: #0077ff;
   }
 
   &.white {
-    background: rgba(187, 187, 187, 0.5);
-    color: #ffffff;
+    --color: #ffffff;
   }
 
   &.black {
-    background: rgb(0, 0, 0);
-    color: #888888;
+    --color: #888888;
   }
 
   &.orange {
-    background: rgba(197, 64, 0, 0.5);
-    color: #ff6a00;
+    --color: #ff6a00;
   }
 
   &.brown {
-    background: rgba(100, 29, 0, 0.5);
-    color: #ff642b;
+    --color: #ff642b;
+  }
+
+  &__color-dot {
+    position: absolute;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    left: 0.35rem;
+    background: var(--color);
   }
 }
 </style>
