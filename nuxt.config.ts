@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     autoImport: false,
   },
 
-  css: ['~/assets/styles/main.css', 'primevue/resources/themes/aura-light-green/theme.css'],
+  css: ['~/assets/styles/main.css', 'primevue/resources/themes/lara-dark-green/theme.css'],
 
   modules: [
     '@nuxtjs/eslint-module',
@@ -18,4 +18,4 @@ export default defineNuxtConfig({
       include: ['DataTable', 'Column', 'ColumnGroup', 'Row'],
     },
   },
-})
+});
