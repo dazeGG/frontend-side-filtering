@@ -18,11 +18,11 @@ const props = defineProps<{
   color: var(--color);
 
   &.blocked {
-    --color: #ff4624;
+    --color: var(--red-500);
   }
 
   &.not-blocked {
-    --color: #36d000;
+    --color: var(--green-500);
   }
 }
 </style>

@@ -16,41 +16,41 @@ const props = defineProps<{
 <style lang="scss">
 .color-view {
   background: unset;
-  color: rgba(255, 255, 255, 0.87);
+  color: var(--text-color);
   border: 1px solid var(--color);
   padding-left: 1rem;
   position: relative;
 
   &.yellow {
-    --color: #ffc800;
+    --color: var(--yellow-500);
   }
 
   &.green {
-    --color: #36d000;
+    --color: var(--green-500);
   }
 
   &.red {
-    --color: #ff4624;
+    --color: var(--red-500);
   }
 
   &.blue {
-    --color: #0077ff;
+    --color: var(--blue-500);
   }
 
   &.white {
-    --color: #ffffff;
+    --color: var(--surface-500);
   }
 
   &.black {
-    --color: #888888;
+    --color: var(--surface-0);
   }
 
   &.orange {
-    --color: #ff6a00;
+    --color: var(--orange-500);
   }
 
   &.brown {
-    --color: #ff642b;
+    --color: var(--orange-900);
   }
 
   &__color-dot {
