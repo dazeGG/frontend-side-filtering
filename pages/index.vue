@@ -14,12 +14,12 @@ import users from '~/data/users.json';
       <Column field="name" header="Name" />
       <Column field="age" header="Age" />
       <Column field="role" header="Role" />
-      <Column field="balance" header="Balance" />
       <Column field="color" header="Color">
         <template #body="{ data: { color } }">
           <ColorView :color="color" />
         </template>
       </Column>
+      <Column field="balance" header="Balance" />
       <Column field="blocked" header="Blocked" data-type="boolean" style="min-width: 6rem">
         <template #body="{ data: { blocked } }">
           <BlockedView :blocked="blocked" />
