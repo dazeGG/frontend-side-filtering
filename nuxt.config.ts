@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 
   primevue: {
     components: {
-      include: ['DataTable', 'Column', 'MultiSelect', 'TriStateCheckbox', 'Tag'],
+      include: ['DataTable', 'Column', 'Slider', 'MultiSelect', 'TriStateCheckbox', 'Tag'],
     },
   },
 });
