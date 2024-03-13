@@ -29,7 +29,7 @@ const colors = computed(() => getColors(users));
 <template>
   <div class="page">
     {{ filters }}
-    <DataTable :value="filteredUsers" striped-rows size="large" filter-display="row">
+    <DataTable :value="filteredUsers" striped-rows size="large" filter-display="row" style="width: 50rem">
       <Column field="name" header="Name" style="width: 6rem" />
       <Column field="age" header="Age" style="width: 4rem" />
       <Column field="role" header="Role" style="width: 6rem" />
@@ -72,7 +72,7 @@ const colors = computed(() => getColors(users));
 
 <style lang="scss">
 .page {
-  width: 50rem;
+  max-width: 50rem;
   margin: 0 auto;
 }
 </style>
