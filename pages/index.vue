@@ -121,6 +121,9 @@ const filterBlocked = () => {
 <template>
   <div class="page">
     <DataTable :value="filteredUsers" striped-rows size="large" filter-display="row" style="width: 60rem">
+      <template #empty>
+        No users found, please try another filters.
+      </template>
       <Column field="name" header="Name" style="width: 8rem" />
       <Column field="age" header="Age" style="width: 12rem" :show-filter-menu="false">
         <template #filter>
