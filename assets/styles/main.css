@@ -10,9 +10,6 @@ p {
 html {
     font-family: Roboto, sans-serif;
     background: var(--surface-a);
-    padding: 1rem;
-    max-height: 220px;
-    overflow-y: auto;
     scrollbar-gutter: stable;
 }
 
