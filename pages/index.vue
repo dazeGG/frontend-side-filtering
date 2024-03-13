@@ -74,8 +74,8 @@ const filters: {
 } = reactive({ ...queryFilters.value });
 
 const filteredUsers = computed(() => {
-  const ageMin = Math.min(...filters.age);
-  const ageMax = Math.max(...filters.age);
+  const ageMin = Math.min(...queryFilters.value.age);
+  const ageMax = Math.max(...queryFilters.value.age);
 
   return users
     .filter((user: IUser) => ageMin <= user.age && user.age <= ageMax)
