@@ -1,6 +1,7 @@
 {
   "name": "nuxt-app",
   "private": true,
+  "version": "v1.0",
   "type": "module",
   "scripts": {
     "prebuild": "engine-version",
