@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Kirill",
+    "balance": 100,
+    "color": "yellow",
+    "role": "root",
+    "blocked": false,
+    "age": 20
+  },
+  {
+    "id": 2,
+    "name": "Artur",
+    "balance": 124,
+    "color": "green",
+    "role": "user",
+    "blocked": false,
+    "age": 22
+  },
+  {
+    "id": 3,
+    "name": "Gorilla",
+    "balance": 43208.2,
+    "color": "red",
+    "role": "admin",
+    "blocked": true,
+    "age": 28
+  },
+  {
+    "id": 4,
+    "name": "Cringe",
+    "balance": 5100,
+    "color": "yellow",
+    "role": "user",
+    "blocked": false,
+    "age": 43
+  },
+  {
+    "id": 5,
+    "name": "Kort",
+    "balance": 10000,
+    "color": "green",
+    "role": "user",
+    "blocked": true,
+    "age": 34
+  },
+  {
+    "id": 6,
+    "name": "Denis",
+    "balance": 4990,
+    "color": "blue",
+    "role": "user",
+    "blocked": false,
+    "age": 86
+  },
+  {
+    "id": 7,
+    "name": "Gura",
+    "balance": 0,
+    "color": "white",
+    "role": "admin",
+    "blocked": false,
+    "age": 18
+  },
+  {
+    "id": 8,
+    "name": "Maria",
+    "balance": 832.48,
+    "color": "white",
+    "role": "admin",
+    "blocked": true,
+    "age": 19
+  },
+  {
+    "id": 9,
+    "name": "Lina",
+    "balance": 32999,
+    "color": "green",
+    "role": "admin",
+    "blocked": false,
+    "age": 36
+  },
+  {
+    "id": 10,
+    "name": "Daria",
+    "balance": 188,
+    "color": "red",
+    "role": "user",
+    "blocked": true,
+    "age": 29
+  },
+  {
+    "id": 11,
+    "name": "Fedor",
+    "balance": 100,
+    "color": "black",
+    "role": "admin",
+    "blocked": false,
+    "age": 24
+  },
+  {
+    "id": 12,
+    "name": "Anna",
+    "balance": 2869,
+    "color": "white",
+    "role": "user",
+    "blocked": false,
+    "age": 21
+  },
+  {
+    "id": 13,
+    "name": "Polina",
+    "balance": 455.03,
+    "color": "white",
+    "role": "user",
+    "blocked": true,
+    "age": 32
+  },
+  {
+    "id": 14,
+    "name": "Aang",
+    "balance": 320,
+    "color": "orange",
+    "role": "admin",
+    "blocked": false,
+    "age": 36
+  },
+  {
+    "id": 15,
+    "name": "Zuko",
+    "balance": 349.3,
+    "color": "brown",
+    "role": "user",
+    "blocked": true,
+    "age": 20
+  },
+  {
+    "id": 16,
+    "name": "Ark",
+    "balance": 44390,
+    "color": "blue",
+    "role": "user",
+    "blocked": false,
+    "age": 30
+  },
+  {
+    "id": 17,
+    "name": "Elena",
+    "balance": 0,
+    "color": "white",
+    "role": "admin",
+    "blocked": false,
+    "age": 56
+  },
+  {
+    "id": 18,
+    "name": "Karmen",
+    "balance": 32.48,
+    "color": "orange",
+    "role": "admin",
+    "blocked": true,
+    "age": 48
+  },
+  {
+    "id": 19,
+    "name": "Ben",
+    "balance": 32999,
+    "color": "green",
+    "role": "admin",
+    "blocked": false,
+    "age": 68
+  },
+  {
+    "id": 20,
+    "name": "Man",
+    "balance": 188,
+    "color": "red",
+    "role": "user",
+    "blocked": true,
+    "age": 20
+  }
+]
